@@ -36,7 +36,7 @@ const api = {
     weatherEl.innerHTML = weather.weather[0].main;
   
     let hiLow = document.querySelector(".hi-low");
-    hiLow.innerHTML = `${Math.round(weather.main.temp_min)}°c/${Math.round(
+    hiLow.innerHTML = `${Math.round(weather.main.temp_min)}°c / ${Math.round(
       weather.main.temp_max )}°c`;
   }
   
@@ -73,3 +73,6 @@ const api = {
   
     return `${day} ${data} ${monthe} ${year}`;
   }
+
+  // git mazgi ):
+  
